@@ -1,0 +1,65 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.memory {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.sum {
+    position: relative;
+    background: rgb(57, 57, 57);
+    height: 100px;
+    text-align: right;
+    padding-right: 30px;
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+}
+
+.sum:hover {
+    background: rgb(57, 57, 57);;
+}
+
+table {
+    background: #efefef
+}
+
+td {
+    cursor: pointer;
+    text-align: center;
+    width: 100px;
+    height: 50px;
+}
+
+td:hover {
+    background: #e2e1e1;
+}
+
+td:active {
+    background: #d6e4ef;
+}
+
+.eq {
+    background: red;
+}
+
+.c {
+    background: green;
+}
+
+.action-preview {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: tan;
+    font-size: 20px;
+    font-weight: normal;
+}
