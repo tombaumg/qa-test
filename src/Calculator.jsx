@@ -39,7 +39,7 @@ const Calculator = () => {
         break;
       }
       case "÷": {
-        setRes(first / second);
+        setRes((first / second).toFixed(0));
         break;
       }
       case "m+": {
@@ -129,7 +129,7 @@ const Calculator = () => {
               C
             </td>
             <td onClick={() => handleNumClicked(7)}>-/+</td>
-            <td onClick={() => handleNumClicked("÷")}>÷</td>
+            <td onClick={() => setAction("÷")}>÷</td>
           </tr>
           <tr>
             <td onClick={() => handleNumClicked(7)}>7</td>
